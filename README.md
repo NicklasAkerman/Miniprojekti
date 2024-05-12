@@ -1,5 +1,5 @@
 # Oma miniprojekti
-Palvelinten hallinta -kurssin miniprojekti(Karvinen 2024). Itse projektin toteutusvaiheita voit seurata tekemästäni [GitHub raportista.]()
+Palvelinten hallinta -kurssin miniprojekti(Karvinen 2024). Itse projektin toteutusvaiheita voit seurata tekemästäni [GitHub raportista.](https://github.com/NicklasHH/Palvelinten-hallinta/blob/master/h7%20Miniprojeti/h7%20miniprojekti.md)
 
 
 #### Projektin tarkoitus
