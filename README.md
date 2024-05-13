@@ -105,6 +105,12 @@ Toteutin projektin itselleni, joten tämän toistaminen ei onnistu ilman muokkau
 
 ---
 
+#### Käyttöohjeita
+- [Digital oceanin käyttö](https://github.com/NicklasHH/Linux-palvelimet/blob/master/h4%20Maailma%20kuulee/Palautus4.md#a-pilvipalvelimen-vuokraus)
+- [Gitin käyttö](https://github.com/NicklasHH/Palvelinten-hallinta/blob/master/h3%20Toimiva%20versio/h3%20Toimiva%20versio.md)
+- [Virtuaalikoneen paikallinen käyttöönotto virtualboxilla](https://github.com/NicklasHH/Linux-palvelimet/blob/master/h1%20Oma%20Linux/Palautus1.md)
+- [Kaikki tekemäni github projektit](https://github.com/NicklasHH?tab=repositories)
+
 ##### Lisenssi kaikelle projektin sisällölle on sama: [GNU GPL 3](https://github.com/NicklasHH/Miniprojekti/blob/main/LICENSE)
 
 ---
