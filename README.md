@@ -43,12 +43,12 @@ Osiossa on tehty käyttäjätunnus nimeltä master, vaihda siihen haluamasi käy
 6. Asennuksia:  
     >`sudo apt-get update`  
     >`sudo apt install micro`  
-    >`echo 'export EDITOR=micro' >> ~/.bashrc` 
-    >`sudo apt install curl` 
+    >`echo 'export EDITOR=micro' >> ~/.bashrc`  
+    >`sudo apt install curl`  
     >`sudo apt install git`  
      
     Salt masterin asennus  
-	  >`sudo curl -fsSL -o /etc/apt/keyrings/salt-archive-keyring-2023.gpg https://repo.saltproject.io/salt/py3/debian/12/amd64/SALT-PROJECT-GPG-PUBKEY-2023.gpg`  
+	  >`sudo curl -fsSL -o /etc/apt/keyrings/salt-archive-keyring-2023.gpg https://repo.saltproject.io/salt/py3/debian/12/amd64/SALT-PROJECT-GPG-PUBKEY-2023.gpg`   
     >`echo "deb [signed-by=/etc/apt/keyrings/salt-archive-keyring-2023.gpg arch=amd64] https://repo.saltproject.io/salt/py3/debian/12/amd64/latest bookworm main" | sudo tee /etc/apt/sources.list.d/salt.list`  
     >`sudo apt-get update`  
     >`sudo apt-get install salt-master`  
@@ -62,32 +62,32 @@ Osiossa on tehty käyttäjätunnus nimeltä master, vaihda siihen haluamasi käy
 
 #### Paikallisen virtuaalikoneen ohjeet
 1. Lataa vagrantfile [täältä.](https://github.com/NicklasHH/Palvelinten-hallinta/blob/master/h7%20Miniprojeti/vagrantfile)
-2. Klikkaa työpöytää oikealla hiirellä ja paina `avaa päätteessä`
+2. Klikkaa työpöytää oikealla hiirellä ja paina `avaa päätteessä`  
   ![2](kuvat/2.png)
 3. Anna komento `Desktop> mkdir testivagrant; cd testivagrant`
 4. Työpöydälle tuli kansio `testivagrant`. kopioi sinne ladattu vagrantfile
-5. Anna terminaaliin komento `vagrant up` ja odota asennuksen valmistuminen. Tähän menee noin 5 minuuttia. Asennuksen päätyttyä kirjaudu sisään painamalla vagrant ja antamalla salasanan, vakiona `vagrant`
+5. Anna terminaaliin komento `vagrant up` ja odota asennuksen valmistuminen. Tähän menee noin 5 minuuttia. Asennuksen päätyttyä kirjaudu sisään painamalla vagrant ja antamalla salasanan, vakiona `vagrant`  
   ![4](kuvat/4.png)
 5. Avaa toinen terminaali ja yhdistä Master koneeseen komennolla `ssh masteri@178.62.241.242`
-6. Kun Minionin asennus on läpi, hyväksy Masterilla Minionin avain komennolla `sudo salt-key -A` ja kirjoittamalla `Y`
+6. Kun Minionin asennus on läpi, hyväksy Masterilla Minionin avain komennolla `sudo salt-key -A` ja kirjoittamalla `Y`  
   ![3](kuvat/3.png)
-7. Aja tilat Minionille komennolla `sudo salt '*' state.apply programsBionic`. Tämä vie noin neljä minuuttia.
-  ![5](kuvat/5.png)
+7. Aja tilat Minionille komennolla `sudo salt '*' state.apply programsBionic`. Tämä vie noin neljä minuuttia.  
+  ![5](kuvat/5.png)  
   ![4](kuvat/6.png)
-8. Kun tilat on ajettu, on Minion ajokunnossa.
+8. Kun tilat on ajettu, on Minion ajokunnossa.  
   ![1.png](kuvat/1.png)
 9. Kielen vaihtaminen tapahtuu niin, että painetaan vasemmasta alakulmasta valikko auki, painetaan `Setti...`, 
-- Valitaan valikosta `Region & Language` jonka jälkeen painetaan Input Sources osion + näppäintä
+- Valitaan valikosta `Region & Language` jonka jälkeen painetaan Input Sources osion + näppäintä  
   ![7](kuvat/7.png)
-- ja valitaan Finnish
+- ja valitaan Finnish  
   ![8](kuvat/8.png)
-- seuraavassa valikossa Finnish ja lopuksi Vihreää Add painiketta.
+- seuraavassa valikossa Finnish ja lopuksi Vihreää Add painiketta.  
   ![9](kuvat/9.png)
-- Tämän jälkeen painetaan Finnish ja nuoli ylöspäin.
+- Tämän jälkeen painetaan Finnish ja nuoli ylöspäin.  
   ![10](kuvat/10.png)
-- Viimeisenä painetaan Työpöydän oikealta yläkulmasta `en`
+- Viimeisenä painetaan Työpöydän oikealta yläkulmasta `en`  
   ![11](kuvat/11.png)
-- Vaihdetaan valikosta Finnish
+- Vaihdetaan valikosta Finnish  
   ![12](kuvat/12.png)
 ---
 
