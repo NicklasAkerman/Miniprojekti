@@ -41,11 +41,11 @@ Osiossa on tehty käyttäjätunnus nimeltä master, vaihda siihen haluamasi käy
 4. Avaa vielä Digital Oceanin kautta terminaali tehdylle käyttäjälle ja mene polkuun `/home/masteri/.ssh` jossa komennolla `nano authorized_keys` voit editoida tiedostoa. Lisää tähän tiedostoon paikallisen koneen julkinen SSH avain. Testaa tämän jälkeen SSH yhteys paikallisen koneen terminaalista komennolla `ssh masteri@178.62.241.242`
 5. Lukitaan ROOT komennoin `sudo usermod --lock root` ja `sudoedit /etc/ssh/sshd_config` kohdassa *PermitRootLogin:* **no**. Voit testata lopputulosta komennolla `ssh root@178.62.241.242` jonka ei pitäisi enää toimia.
 6. Asennuksia:  
-    >`sudo apt-get update`  
-    >`sudo apt install micro`  
-    >`echo 'export EDITOR=micro' >> ~/.bashrc`  
-    >`sudo apt install curl`  
-    >`sudo apt install git`  
+    >sudo apt-get update  
+    >sudo apt install micro  
+    >echo 'export EDITOR=micro' >> ~/.bashrc  
+    >sudo apt install curl  
+    >sudo apt install git  
      
     Salt masterin asennus  
 	  >`sudo curl -fsSL -o /etc/apt/keyrings/salt-archive-keyring-2023.gpg https://repo.saltproject.io/salt/py3/debian/12/amd64/SALT-PROJECT-GPG-PUBKEY-2023.gpg`   
