@@ -66,7 +66,7 @@ Osiossa on tehty käyttäjätunnus nimeltä master, vaihda siihen haluamasi käy
 1. Lataa vagrantfile [täältä.](https://github.com/NicklasHH/Palvelinten-hallinta/blob/master/h7%20Miniprojeti/vagrantfile)
 2. Klikkaa työpöytää oikealla hiirellä ja paina `avaa päätteessä`  
   ![2](kuvat/2.png)
-3. Anna komento `Desktop> mkdir testivagrant; cd testivagrant`
+3. Anna komento `mkdir testivagrant; cd testivagrant`
 4. Työpöydälle tuli kansio `testivagrant`. kopioi sinne ladattu vagrantfile
 5. Anna terminaaliin komento `vagrant up` ja odota asennuksen valmistuminen. Tähän menee noin 5 minuuttia. Asennuksen päätyttyä kirjaudu sisään painamalla vagrant ja antamalla salasanan, vakiona `vagrant`  
   ![4](kuvat/4.png)
