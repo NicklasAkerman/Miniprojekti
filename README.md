@@ -99,6 +99,7 @@ Toteutin projektin itselleni, joten tämän toistaminen ei onnistu ilman muokkau
 #### Käytetty koodi
 - [Vagrantfile](vagrantfile)
 - [Masterin salt tiedosto](salt)
+- [salt repository](https://github.com/NicklasHH/salt)
 
 ---
 
