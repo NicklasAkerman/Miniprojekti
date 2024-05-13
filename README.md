@@ -78,7 +78,7 @@ Osiossa on tehty käyttäjätunnus nimeltä master, vaihda siihen haluamasi käy
   ![4](kuvat/6.png)
 8. Kun tilat on ajettu, on Minion ajokunnossa.  
   ![1.png](kuvat/1.png)
-9. Kielen vaihtaminen tapahtuu niin, että painetaan vasemmasta alakulmasta valikko auki, painetaan `Setti...`, 
+9. Kielen vaihtaminen tapahtuu niin, että painetaan vasemmasta alakulmasta valikko auki ja painetaan `Setti...`, 
 - Valitaan valikosta `Region & Language` jonka jälkeen painetaan Input Sources osion + näppäintä  
   ![7](kuvat/7.png)
 - ja valitaan Finnish  
