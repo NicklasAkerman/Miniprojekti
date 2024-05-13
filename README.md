@@ -105,7 +105,7 @@ Toteutin projektin itselleni, joten tämän toistaminen ei onnistu ilman muokkau
 
 ---
 
-##### Lisenssi kaikelle projektin sisällölle on sama: GNU GPL 3
+##### Lisenssi kaikelle projektin sisällölle on sama: [GNU GPL 3](https://github.com/NicklasHH/Miniprojekti/blob/main/LICENSE)
 
 ---
 
