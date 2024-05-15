@@ -93,7 +93,16 @@ Osiossa on tehty käyttäjätunnus nimeltä master, vaihda siihen haluamasi käy
 ---
 
 #### Huomionarvoiset asiat
-Toteutin projektin itselleni, joten tämän toistaminen ei onnistu ilman muokkauksia. Koska käytössä on pilvessä oleva master, ei samat master konfiguraatiot toimi paikalliselle asennukselle. Lisäksi asennettavien ohjelmien kohdalla on eroavaisuuksia käyttöjärjestelmällä. Lopullisessa versiossa käytin Ubuntun Bionic käyttöjärjestelmää paikallisilla virtuaalikoneilla, jolloin jouduin käyttämään useamman ohjelman asennukseen snap paketinhallintaa. Jos haluat tehdä useamman projektin samaan aikaan, kannattaa vagrantfileen vaihtaa programmerin tilalle projektiin hyvin osuva nimi. Tämän projektin etuna on se, että jos havaitsen tarvitsevani usein tietyt samat muutokset tai ohjelmat, voin tehdä saltilla tilan muutosta/asennusta varten. Lisäksi voin tarvittaessa tehdä useille eri käyttöjärjestelmille omat tilansa, mutta ajankäytön takia se ei ollut osa tätä projektia. Jokainen osio on testattu työvaiheessa, jotka voi lukea työvaiheen [raportistani](https://github.com/NicklasHH/Palvelinten-hallinta/blob/master/h7%20Miniprojeti/h7%20miniprojekti.md).
+Toteutin projektin itselleni, joten tämän toistaminen ei onnistu ilman muokkauksia. Koska käytössä on pilvessä oleva master, ei samat master konfiguraatiot toimi paikalliselle asennukselle. Lisäksi asennettavien ohjelmien kohdalla on eroavaisuuksia käyttöjärjestelmällä. Lopullisessa versiossa käytin Ubuntun Bionic käyttöjärjestelmää paikallisilla virtuaalikoneilla, jolloin jouduin käyttämään useamman ohjelman asennukseen snap paketinhallintaa. Jos haluat tehdä useamman projektin samaan aikaan, kannattaa vagrantfileen vaihtaa programmerin tilalle projektiin hyvin osuva nimi. Tämän projektin etuna on se, että jos havaitsen tarvitsevani usein tietyt samat muutokset tai ohjelmat, voin tehdä saltilla tilan muutosta/asennusta varten. Lisäksi voin tarvittaessa tehdä useille eri käyttöjärjestelmille omat tilansa, mutta ajankäytön takia se ei ollut osa tätä projektia. Jokainen osio on testattu työvaiheessa, jotka voi lukea työvaiheen [raportistani](https://github.com/NicklasHH/Palvelinten-hallinta/blob/master/h7%20Miniprojeti/h7%20miniprojekti.md).  
+
+
+#### Virtuaalikoneen nimi
+
+Voit vaihtaa virtuaalikoneen nimen yksinkertaisesti vaihtamalla neljään vagrantfile osioon haluamasi nimen:  
+  ![1](kuvat/v1.png)  
+  ![2](kuvat/v2.png)  
+
+*Osio lisätty 15.5.2024 selkeyttämään virtuaalikoneen nimen vaihtoa*
 
 ---
 
