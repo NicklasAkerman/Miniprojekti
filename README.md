@@ -4,7 +4,8 @@ Palvelinten hallinta -kurssin miniprojekti(Karvinen 2024). Itse projektin toteut
 ---
 
 #### Projektin tarkoitus
-Tarkoituksena on luoda pilveen master kone, jonka avulla saadaan paikalliselle virtuaalikone minionille ladattua halutut ohjelmistokehityksen tarpeet helposti. Tämän avulla voin helposti luoda jokaiselle kehitysprojektilleni omat virtuaalikoneet samoilla asetuksilla ja ohjelmistoilla.
+Projektissa luodaan Digital Oceanin pilvipalvelimelle salt-master kone, jonka avulla saadaan helposti ajettua paikallisille Ubuntu Bionic virtuaalikoneille salt-tiloja. Tässä tilat pitävät sisällään on ohjelmistokehitykseen vaadittavat ohjelmat. Tämän avulla voin helposti luoda jokaiselle kehitysprojektilleni omat virtuaalikoneet samoilla asetuksilla ja ohjelmistoilla.
+*Muokattu kuvaavampi tarkoitus 15.5.2024*
 
 ---
 
@@ -72,7 +73,7 @@ Osiossa on tehty käyttäjätunnus nimeltä master, vaihda siihen haluamasi käy
 5. Avaa toinen terminaali ja yhdistä Master koneeseen komennolla `ssh masteri@178.62.241.242`
 6. Kun Minionin asennus on läpi, hyväksy Masterilla Minionin avain komennolla `sudo salt-key -A` ja kirjoittamalla `Y`  
   ![3](kuvat/3.png)
-7. Aja tilat Minionille komennolla `sudo salt '*' state.apply programsBionic`. Tämä vie noin neljä minuuttia.  
+7. Aja tilat Minionille komennolla `sudo salt 'esittely' state.apply programsBionic`. Tämä vie noin neljä minuuttia.  
   ![5](kuvat/5.png)  
   ![4](kuvat/6.png)
 8. Kun tilat on ajettu, on Minion ajokunnossa.  
