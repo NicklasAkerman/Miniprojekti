@@ -9,7 +9,7 @@ Tarkoituksena on luoda pilveen master kone, jonka avulla saadaan paikalliselle v
 ---
 
 #### Esitiedot ja vaatimukset
-Paikalliselle koneelle tulee olla asennettuna virtualbox, Git sekä Vagrant. Lisäksi käytössä on Digital Ocean, jonne rakensin Master koneen. Tämä ohjeistus toimii ainakin seuraavan kokoonpanon kanssa:
+Paikalliselle koneelle tulee olla asennettuna virtualbox, Git, ssh sekä Vagrant. Lisäksi käytössä on Digital Ocean, jonne rakensin Master koneen. Tämä ohjeistus toimii ainakin seuraavan kokoonpanon kanssa:
 - Windows 11 Home
   - Versio: 23H2
 - Nvidia rtx 2060 näytönohjain
