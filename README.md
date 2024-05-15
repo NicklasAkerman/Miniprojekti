@@ -4,7 +4,7 @@ Palvelinten hallinta -kurssin miniprojekti(Karvinen 2024). Itse projektin toteut
 ---
 
 #### Projektin tarkoitus
-Projektissa luodaan Digital Oceanin pilvipalvelimelle salt-master kone, jonka avulla saadaan helposti ajettua paikallisille Ubuntu Bionic virtuaalikoneille salt-tiloja. Tässä tilat pitävät sisällään on ohjelmistokehitykseen vaadittavat ohjelmat. Tämän avulla voin helposti luoda jokaiselle kehitysprojektilleni omat virtuaalikoneet samoilla asetuksilla ja ohjelmistoilla.
+Projektissa luodaan Digital Oceanin pilvipalvelimelle salt-master kone, jonka avulla saadaan helposti ajettua paikallisille Ubuntu Bionic virtuaalikoneille salt-tiloja. Tässä tilat pitävät sisällään on ohjelmistokehitykseen vaadittavat ohjelmat. Tämän avulla voin helposti luoda jokaiselle kehitysprojektilleni omat virtuaalikoneet samoilla asetuksilla ja ohjelmistoilla.  
 *Muokattu kuvaavampi tarkoitus 15.5.2024*
 
 ---
